@@ -1,0 +1,9 @@
+global-css:
+  css:
+    theme:
+      css/p_theme.css: {}
+global-js:
+  js:
+    js/p_theme.js: {}
+  dependencies:
+      - core/jquery
