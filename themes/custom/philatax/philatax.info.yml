@@ -1,5 +1,5 @@
-# p_theme.info.yml file for p_theme
-name: p_theme
+# philatax.info.yml file for philatax
+name: philatax
 description: 'My great theme.'
 core: 8.x
 type: theme
@@ -26,5 +26,5 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - p_theme/global-css
-  - p_theme/global-js
+  - philatax/global-css
+  - philatax/global-js

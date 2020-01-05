@@ -1,9 +1,9 @@
 global-css:
   css:
     theme:
-      css/p_theme.css: {}
+      css/philatax.css: {}
 global-js:
   js:
-    js/p_theme.js: {}
+    js/philatax.js: {}
   dependencies:
       - core/jquery

@@ -18,7 +18,8 @@ $(function(){
 */
 var d = new Date();
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   
     var year = d.getFullYear();
     //console.log(d.getFullYear());
 
@@ -28,5 +29,8 @@ var d = new Date();
     var date = d.getDate();
     //console.log(d.getDate());
 
-    console.log(month + ' ' + date + ', ' + year);
+    var day = days[d.getDay()];
+    //console.log(d.getDate());
+
+    console.log(day + ' ' + month + ' ' + date + ', ' + year);
 console.log('test1-2-3');
