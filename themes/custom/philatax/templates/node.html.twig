@@ -70,6 +70,7 @@
  *   in different view modes.
  */
 #}
+
 {%
   set classes = [
     'node',
@@ -78,11 +79,10 @@
     node.isSticky() ? 'node--sticky',
     not node.isPublished() ? 'node--unpublished',
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    current_user_is_owner ? 'node--current-user-is-owner',
   ]
 %}
 {{ attach_library('classy/node') }}
-
-{{ kint(author_name) }}
 
 <article{{ attributes.addClass(classes) }}>
 
@@ -98,7 +98,7 @@
     <footer class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }} and {% endtrans %}
+        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
         {{ metadata }}
       </div>
     </footer>
