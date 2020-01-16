@@ -25,3 +25,17 @@ function philatax_preprocess_node(&$variables) {
     $variables['title_suffix']['#suffix'] = '[you are not the author]';
   }
 }
+
+
+function philatax_preprocess_taxonomy_term(&$variables) {
+  //$variables['term'] = $variables['elements']['#taxonomy_term'];
+  //$variables['author_name'] = $author_name;
+  //$variables['view_mode'] = $view_mode;
+  //$variables['classes'] = $classes;
+  $variables['elements'] = $elements;
+  $variables['attributes'] = $attributes;
+  $variables['content_attribltes'] = $content_attributes;
+  $variables['label'] = $label;
+  $variables['page'] = $page;
+  $variables['url'] = $url;
+}
