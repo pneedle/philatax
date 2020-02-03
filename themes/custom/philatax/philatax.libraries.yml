@@ -9,7 +9,6 @@ global-css:
       css/components/comments.css: {}
       css/components/contextual.css: {}
       css/components/demo-block.css: {}
-      # @see https://www.drupal.org/node/2389735
       css/components/dropbutton.component.css: {}
       css/components/featured-top.css: {}
       css/components/feed-icon.css: {}
@@ -52,6 +51,8 @@ global-css:
       css/components/buttons.css: {}
       css/components/image-button.css: {}
       css/components/ui-dialog.css: {}
+    theme:
+      css/colors.css: {}
 global-js:
   js:
     js/philatax.js: {}
