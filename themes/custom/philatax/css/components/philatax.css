@@ -5,3 +5,11 @@ body {
 .vocabulary-country {
   background-color: greenyellow;
 }
+
+.site-name a {
+  text-decoration: none;
+}
+
+div.site-name {
+  display: inline-block;
+}
