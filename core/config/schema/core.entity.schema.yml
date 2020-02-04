@@ -1,4 +1,4 @@
- # Schema for Configuration files of the entity module.
+# Schema for Configuration files of the entity module.
 
 core.entity_view_mode.*.*:
   type: config_entity

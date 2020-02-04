@@ -1,0 +1,4 @@
+/* hide the paragraph field name */
+.field--name-field-philately-paragraph > div.field__label {
+  display: none
+}

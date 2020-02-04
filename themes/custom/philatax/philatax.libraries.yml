@@ -29,6 +29,7 @@ global-css:
       css/components/page-title.css: {}
       css/components/pager.css: {}
       css/components/panel.css: {}
+      css/components/paragraphs.css: {}
       css/components/primary-menu.css: {}
       css/components/search-form.css: {}
       css/components/search-results.css: {}
