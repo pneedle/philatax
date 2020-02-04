@@ -8,7 +8,7 @@ body {
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: #bfd992;
 }
 .tabs ul.primary li a.is-active {
   background-color: #fff;
@@ -19,8 +19,10 @@ body {
 }
 #header {
   background-color: #1d84c3;
-  background-image: -webkit-linear-gradient(top, #055a8e 0%, #1d84c3 100%);
-  background-image: linear-gradient(to bottom, #055a8e 0%, #1d84c3 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  /* background-image: linear-gradient(to bottom, #055a8e 0%, #1d84c3 100%); */
+  background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
 }
 a,
 .link {
@@ -52,7 +54,7 @@ a:active,
 .region-header .site-branding a,
 .region-secondary-menu .menu-item a,
 .region-secondary-menu .menu-item a.is-active {
-  color: #fffeff;
+  color: #000000;
 }
 
 /* ---------- Color Form ----------- */
