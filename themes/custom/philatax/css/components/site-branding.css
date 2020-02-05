@@ -47,3 +47,7 @@
   font-size: 0.929em;
   font-style: italic;
 }
+
+a.site-logo {
+  vertical-align: middle;
+}

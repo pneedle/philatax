@@ -2,3 +2,31 @@
 .field--name-field-philately-paragraph > div.field__label {
   display: none
 }
+
+.paragraph {
+  background-color: rgba(82, 112, 125, 0.2);
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph > .field--name-field-country-issued {
+  clear: left;
+  margin-bottom: 0;
+}
+
+
+.field--type-entity-reference .field__label {
+  font-size: 1.0em;
+}
+
+.field--name-field-country-issued > .field__label,
+.field--name-field-issue-date > .field__label,
+.field--name-field-philately-description > .field__label{
+  font-weight: 400;
+}
+
+.field--name-field-issue-date > div.field__item,
+.field--name-field-country-issued > div.field__iteml{
+  font-weight: 700;
+}
