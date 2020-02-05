@@ -1,0 +1,23 @@
+div.layout__region.layout__region--first {
+  background-color: #92c6de; /* light blue */
+  border-radius: 10px;
+}
+
+div.layout__region.layout__region--second {
+  background-color: #f4f487; /* light yellow */
+  border-radius: 10px;
+}
+
+div.layout__region.layout__region--third {
+  background-color: #a3db7a; /* light green */
+  border-radius: 10px;
+}
+
+#block-philatax-content > article > div.node__content.clearfix > div.layout.layout--threecol-section.layout--threecol-section--33-34-33 > div.layout__region.layout__region--second > div > div > div > div.view-content > div > div > div > img,
+#block-philatax-content > article > div.node__content.clearfix > div.layout.layout--threecol-section.layout--threecol-section--33-34-33 > div.layout__region.layout__region--third > div > div > div > div.view-content > div > div.views-field.views-field-field-image-animalia > div > img,
+#block-philatax-content > article > div.node__content.clearfix > div.layout.layout--threecol-section.layout--threecol-section--33-34-33 > div.layout__region.layout__region--third > div > div > div > div.view-content > div > div.views-field.views-field-field-image-plantae > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}

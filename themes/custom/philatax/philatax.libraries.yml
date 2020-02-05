@@ -19,6 +19,7 @@ global-css:
       css/components/help.css: {}
       css/components/highlighted.css: {}
       css/components/item-list.css: {}
+      css/components/layout.css: {}
       css/components/list-group.css: {}
       css/components/list.css: {}
       css/components/main-content.css: {}
