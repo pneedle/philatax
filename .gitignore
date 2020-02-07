@@ -41,5 +41,6 @@ web.config
 .DS_Store
 themes/.DS_Store
 themes/custom/philatax/.DS_Store
+sites/default/files/.DS_Store
 
 
