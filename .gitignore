@@ -38,4 +38,8 @@ index.php
 robots.txt
 update.php
 web.config
+.DS_Store
+themes/.DS_Store
+themes/custom/philatax/.DS_Store
+
 
