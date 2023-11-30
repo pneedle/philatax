@@ -20,3 +20,24 @@ libraries-extend:
     - philatax_theme/progress
 core_version_requirement: ^10
 generator: 'starterkit_theme:10.1.6'
+
+regions:
+  header_top: 'Header Top'
+  site_branding: 'Site Branding'
+  primary_menu: 'Primary menu'
+  search_box: 'Full Page Search'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  topleft: Topleft
+  topright: Topright
+  topmain: Topmain
+  content: Content
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  content_home: 'Homepage Content'
+  sidebar_first: 'Sidebar Left'
+  sidebar_second: 'Sidebar Right'
+  footer: Footer
+  hidden_blocks: 'Hidden Blocks'
